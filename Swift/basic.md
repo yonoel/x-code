@@ -40,6 +40,9 @@ var x = Audio.min
 
 ## Optionals
 
+You use optionals in situations where a value may be absent. An optional represents two possibilities: Either there is a value, and you can unwrap the optional to access that value, or there isn’t a value at all.
+当一个值可能缺失的情况下，你可以使用optionals这个语法
+
 语法 a: Int? = 5
 如果不赋值 比如 a :Int?
 a的值为nil
